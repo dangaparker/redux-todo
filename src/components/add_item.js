@@ -34,7 +34,7 @@ class AddItem extends Component {
                     <Link to='/' className='btn blue'>View List</Link>
                 </div>
 
-                <form onSubmit={handleSubmit(this.handleAddItem.bind(this))}>
+                <form onSubmit={handleSubmit(this.handleAddItem.bind(this))>
                     <div className="row">
                         <Field name='title' component={this.renderInput} label='Title'/>
                     </div>
